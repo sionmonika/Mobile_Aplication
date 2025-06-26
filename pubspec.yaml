@@ -1,0 +1,21 @@
+name: class_manager
+description: A Flutter app for managing student records with SQLite
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.17.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  sqflite: ^2.3.0
+  path: ^1.8.3
+  sqflite_common_ffi: ^2.3.0 # For desktop support
+  intl: ^0.18.1 # For date formatting
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+flutter:
+  uses-material-design: true
